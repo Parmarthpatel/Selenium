@@ -19,7 +19,7 @@ public class Mozila_Webconcept {
         driver.get("https://www.rebuy.de/");
  //  4.Get Page Title
         String  title = driver.getTitle();
-        System.out.println("Page Title is: " + title);
+        System.out.println("Page Title is: "+ title);
 
     //5.Navigation
         driver.navigate().back();
